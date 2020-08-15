@@ -11,7 +11,7 @@ const app = express()
 const fs = require('fs')
 
 app.set('view engine', 'ejs')
-app.use(express.static('public'))
+app.use(express.static('docs'))
 
 app.get('/store', function(req, res) {
     fs.readFile('items.json', function(error, data) {
