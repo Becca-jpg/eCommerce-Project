@@ -1,0 +1,52 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "title": "Men's Comfy Shirt",
+            "price": 999,
+            "imgName": "m-shirt-1.png"
+        },
+        {
+            "id": 2,
+            "title": "Men's Comfy Shirt",
+            "price": 999,
+            "imgName": "m-shirt-2.png"
+        },
+        {
+            "id": 3,
+            "title": "Women's Comfy Shirt",
+            "price": 999,
+            "imgName": "w-shirt-1.png"
+        },
+        {
+            "id": 4,
+            "title": "Women's Comfy Shirt",
+            "price": 999,
+            "imgName": "w-shirt-2.png"
+        },
+        {
+            "id": 5,
+            "title": "Men's Comfy Pants",
+            "price": 1499,
+            "imgName": "m-pant-1.png"
+        },
+        {
+            "id": 6,
+            "title": "Men's Comfy Pants",
+            "price": 1499,
+            "imgName": "m-pant-2.png"
+        },
+        {
+            "id": 7,
+            "title": "Women's Comfy Pants",
+            "price": 1499,
+            "imgName": "w-pant-1.png"
+        },
+        {
+            "id": 8,
+            "title": "Women's Comfy Pants",
+            "price": 1499,
+            "imgName": "w-pant-2.png"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "Men's Comfy Shirt",
+          "price": 9.99,
+          "image": { "fields": { "file": { "url": "m-shirt-1.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "Men's Comfy Shirt",
+          "price": 9.99,
+          "image": { "fields": { "file": { "url": "m-shirt-2.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "Women's Comfy Shirt",
+          "price": 9.99,
+          "image": { "fields": { "file": { "url": "w-shirt-1.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "Women's Comfy Shirt",
+          "price": 9.99,
+          "image": { "fields": { "file": { "url": "w-shirt-2.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "Men's Comfy Pants",
+          "price": 14.99,
+          "image": { "fields": { "file": { "url": "m-pant-1.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "Men's Comfy Pants",
+          "price": 14.99,
+          "image": { "fields": { "file": { "url": "m-pant-2.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "Women's Comfy Pants",
+          "price": 14.99,
+          "image": { "fields": { "file": { "url": "w-pant-1.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "fields": {
+          "title": "Women's Comfy Pants",
+          "price": 14.99,
+          "image": { "fields": { "file": { "url": "w-pant-2.png" } } }
+        }
+      }
+    ]
+  }
+  

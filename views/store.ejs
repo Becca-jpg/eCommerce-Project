@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Comfy</title>
+    
+    <link rel="stylesheet" href="main.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Istok+Web&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/4121d0350b.js" crossorigin="anonymous"></script>
+
+    <script src="https://checkout.stripe.com/checkout.js" defer></script>
+    <script src="app.js" defer></script>
+    <script>
+        let stripePublicKey = '<%= stripePublicKey %>'
+    </script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-center">
+            <span class="nav-icon">
+                <i class="fas fa-bars"></i>
+            </span>
+            <img src="/" alt="store logo">
+            <div class="cart-btn">
+                <span class="nav-icon">
+                    <i class="fas fa-cart-plus"></i>
+                </span>
+                <div class="cart-items">0</div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="banner">
+            <h1 class="banner-title">clothing lookbook</h1>
+            <button class="banner-btn">shop now</button>
+        </div>
+    </header>
+
+    <section class="products">
+        <div class="section-title">
+            <h2>Our Products</h2>
+        </div>
+        <div class="products-center">
+            <% items.items.forEach(function(item) { %>
+
+             <article class="product">
+                <div class="img-container" data-item-id="<% item.id %>">
+                    <img src="<%= item.imgName %>" alt="product" class="product-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fas fa-shopping-cart"></i>
+                        add to bag
+                    </button>
+                </div>
+                <h3><%= item.title %></h3>
+                <span>$<%= item.price / 100 %></span>
+            </article>
+        <% }) %>
+        </div>
+    </section>
+
+    <div class="cart-overlay">
+        <div class="cart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2>your cart</h2>
+            <div class="cart-content">
+                <!-- <div class="cart-item"> -->
+            </div>
+            <div class="cart-footer">
+                <h3>your total: $ <span class="cart-total">0</span></h3>
+                <button class="clear-cart banner-btn">clear cart</button>
+                <button class="banner-btn" class="checkout">Checkout Now</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../public/app.js"></script>
+</body>
+</html>
